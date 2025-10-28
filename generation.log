@@ -1,0 +1,53 @@
+2025-10-28 19:45:17,558 - __main__ - INFO - ================================================================================
+2025-10-28 19:45:17,558 - __main__ - INFO - CANNES SLOGAN GENERATOR - AI-Powered Pipeline
+2025-10-28 19:45:17,558 - __main__ - INFO - ================================================================================
+2025-10-28 19:45:17,558 - __main__ - INFO - Configuration:
+2025-10-28 19:45:17,558 - __main__ - INFO -   - Target: 400 slogans
+2025-10-28 19:45:17,558 - __main__ - INFO -   - Pool size: 2500 candidates
+2025-10-28 19:45:17,558 - __main__ - INFO -   - Seed: 42
+2025-10-28 19:45:17,558 - __main__ - INFO -   - Corpus RU: russian_slogans_numbered — копия.txt
+2025-10-28 19:45:17,559 - __main__ - INFO -   - Corpus EN: English slogans
+2025-10-28 19:45:17,559 - __main__ - INFO - 
+Step 1: Generating candidate pool...
+2025-10-28 19:45:17,559 - modules.ai_generator - INFO - Starting Cannes-level slogan generation: 2500 → 400
+2025-10-28 19:45:17,581 - modules.ai_generator - INFO - Generated 500 candidates...
+2025-10-28 19:45:17,585 - modules.ai_generator - INFO - Generated 998 candidates...
+2025-10-28 19:45:17,588 - modules.ai_generator - INFO - Generated 1498 candidates...
+2025-10-28 19:45:17,592 - modules.ai_generator - INFO - Generated 1998 candidates...
+2025-10-28 19:45:17,596 - modules.ai_generator - INFO - Generated 2497 candidates...
+2025-10-28 19:45:17,616 - modules.ai_generator - INFO - Generated 400 unique Cannes-level slogans
+2025-10-28 19:45:17,618 - __main__ - INFO - 
+Step 2: Generated 400 slogans
+2025-10-28 19:45:17,618 - __main__ - INFO - 
+Step 3: Exporting results...
+2025-10-28 19:45:17,624 - __main__ - INFO -   ✓ Exported to out/cannes_400.jsonl
+2025-10-28 19:45:17,628 - __main__ - INFO -   ✓ Exported to out/cannes_400.csv
+2025-10-28 19:45:17,632 - __main__ - INFO -   ✓ Exported to out/cannes_400.txt
+2025-10-28 19:45:17,632 - __main__ - INFO - 
+Step 4: Generating quality report...
+2025-10-28 19:45:17,633 - __main__ - INFO -   ✓ Report saved to reports/quality_report.md
+2025-10-28 19:45:17,634 - __main__ - INFO - 
+================================================================================
+2025-10-28 19:45:17,634 - __main__ - INFO - ✅ GENERATION COMPLETE
+2025-10-28 19:45:17,634 - __main__ - INFO - ================================================================================
+2025-10-28 19:45:17,634 - __main__ - INFO - Generated: 400 slogans
+2025-10-28 19:45:17,634 - __main__ - INFO - Average score: 0.980
+2025-10-28 19:45:17,634 - __main__ - INFO - 
+Output files:
+2025-10-28 19:45:17,634 - __main__ - INFO -   - out/cannes_400.jsonl
+2025-10-28 19:45:17,634 - __main__ - INFO -   - out/cannes_400.csv
+2025-10-28 19:45:17,634 - __main__ - INFO -   - out/cannes_400.txt
+2025-10-28 19:45:17,634 - __main__ - INFO -   - reports/quality_report.md
+2025-10-28 19:45:17,634 - __main__ - INFO - 
+Top 10 slogans:
+2025-10-28 19:45:17,634 - __main__ - INFO -    1. Твори по-новому (1.000)
+2025-10-28 19:45:17,634 - __main__ - INFO -    2. Думай по-новому (1.000)
+2025-10-28 19:45:17,634 - __main__ - INFO -    3. Кто пробуй? (1.000)
+2025-10-28 19:45:17,635 - __main__ - INFO -    4. Что если иди? (1.000)
+2025-10-28 19:45:17,635 - __main__ - INFO -    5. Кто делай? (1.000)
+2025-10-28 19:45:17,635 - __main__ - INFO -    6. Почему бы не иди? (1.000)
+2025-10-28 19:45:17,635 - __main__ - INFO -    7. Зачем живи? (1.000)
+2025-10-28 19:45:17,635 - __main__ - INFO -    8. Дерзай или нет? (1.000)
+2025-10-28 19:45:17,635 - __main__ - INFO -    9. Выбирай или нет? (1.000)
+2025-10-28 19:45:17,635 - __main__ - INFO -   10. Ты сильный? (1.000)
+2025-10-28 19:45:17,635 - __main__ - INFO - ================================================================================
