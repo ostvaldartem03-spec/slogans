@@ -1,0 +1,74 @@
+# Cannes Slogan Generator Configuration
+
+# Data Paths
+data:
+  russian_corpus: "russian_slogans_numbered — копия.txt"
+  english_corpus: "English slogans"
+  output_dir: "out"
+  reports_dir: "reports"
+  logs_dir: "logs"
+  cache_dir: ".cache"
+
+# Pipeline Parameters
+pipeline:
+  target_language: "ru"  # ru or en
+  seed: 42
+  target_count: 400
+  candidate_pool_size: 2500
+  batch_size: 250
+
+# Generation Settings
+generation:
+  temperature: 0.9
+  top_p: 0.95
+  presence_penalty: 0.7
+  model: "gpt-4"  # or "claude-3-opus-20240229"
+  
+# Slogan Constraints
+constraints:
+  min_words: 2
+  max_words: 8
+  target_avg_words: 5
+  forbidden_patterns:
+    - "®"
+    - "™"
+    - "©"
+  
+# Novelty Thresholds
+novelty:
+  embedding_similarity_threshold: 0.80  # max cosine similarity to corpus
+  ngram_size: 5
+  ngram_overlap_threshold: 0.0  # no overlap allowed
+  internal_dedup_threshold: 0.80
+
+# Quality Scoring Thresholds
+quality:
+  min_punchiness: 0.65
+  min_wit: 0.60
+  min_clarity: 0.70
+  min_twist: 0.50
+  
+# Weights for final ranking
+weights:
+  punchiness: 0.30
+  wit: 0.25
+  clarity: 0.20
+  twist: 0.15
+  novelty: 0.10
+
+# Safety Filters
+safety:
+  check_toxicity: true
+  toxicity_threshold: 0.7
+  forbidden_topics:
+    - "medical claims"
+    - "legal guarantees"
+    - "competitor comparisons"
+    - "political statements"
+    - "discrimination"
+    - "violence"
+
+# Embedding Model
+embeddings:
+  model_name: "sentence-transformers/paraphrase-multilingual-mpnet-base-v2"
+  index_type: "faiss"  # faiss or annoy

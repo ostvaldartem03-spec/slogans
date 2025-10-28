@@ -1,0 +1,36 @@
+# Core dependencies for Cannes-level slogan generation pipeline
+# Python 3.9+
+
+# LLM Integration
+openai>=1.10.0
+anthropic>=0.18.0
+
+# NLP & Embeddings
+sentence-transformers>=2.3.1
+transformers>=4.36.0
+torch>=2.1.0
+
+# Vector Search
+faiss-cpu>=1.7.4
+annoy>=1.17.3
+
+# Text Processing
+nltk>=3.8.1
+spacy>=3.7.2
+python-Levenshtein>=0.23.0
+rapidfuzz>=3.6.0
+
+# Data Processing
+pandas>=2.1.4
+numpy>=1.26.3
+tqdm>=4.66.1
+
+# Export Formats
+jsonlines>=4.0.0
+
+# Safety & Toxicity
+detoxify>=0.5.2
+
+# Utilities
+python-dotenv>=1.0.0
+pyyaml>=6.0.1
