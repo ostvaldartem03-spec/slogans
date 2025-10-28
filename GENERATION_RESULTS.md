@@ -226,4 +226,4 @@ jq -r '.text' out/cannes_400.jsonl | wc -w
 **Сгенерировано с помощью Factory AI Droid | 2025-10-28**
 
 🔗 [GitHub Repository](https://github.com/ostvaldartem03-spec/slogans)  
-🌐 [Web Demo](https://cards-epa-venice-craft.trycloudflare.com)
+🌐 [Web Demo](https://personals-alignment-metric-cam.trycloudflare.com)
