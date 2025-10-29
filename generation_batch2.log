@@ -1,0 +1,59 @@
+2025-10-29 10:35:42,722 - __main__ - INFO - ================================================================================
+2025-10-29 10:35:42,723 - __main__ - INFO - CANNES SLOGAN GENERATOR - NEW BATCH
+2025-10-29 10:35:42,723 - __main__ - INFO - ================================================================================
+2025-10-29 10:35:42,723 - __main__ - INFO - Configuration:
+2025-10-29 10:35:42,723 - __main__ - INFO -   - Target: 400 slogans
+2025-10-29 10:35:42,723 - __main__ - INFO -   - Pool size: 2500 candidates
+2025-10-29 10:35:42,723 - __main__ - INFO -   - Seed: 2025 (NEW - different from previous)
+2025-10-29 10:35:42,723 - __main__ - INFO -   - Corpus RU: russian_slogans_numbered — копия.txt
+2025-10-29 10:35:42,723 - __main__ - INFO -   - Corpus EN: English slogans
+2025-10-29 10:35:42,723 - __main__ - INFO - 
+Generating NEW batch of slogans...
+2025-10-29 10:35:42,723 - modules.ai_generator - INFO - Starting Cannes-level slogan generation: 2500 → 400
+2025-10-29 10:35:42,752 - modules.ai_generator - INFO - Generated 500 candidates...
+2025-10-29 10:35:42,756 - modules.ai_generator - INFO - Generated 1000 candidates...
+2025-10-29 10:35:42,762 - modules.ai_generator - INFO - Generated 1498 candidates...
+2025-10-29 10:35:42,766 - modules.ai_generator - INFO - Generated 1998 candidates...
+2025-10-29 10:35:42,771 - modules.ai_generator - INFO - Generated 2496 candidates...
+2025-10-29 10:35:42,799 - modules.ai_generator - INFO - Generated 400 unique Cannes-level slogans
+2025-10-29 10:35:42,801 - __main__ - INFO - 
+Generated 400 new slogans
+2025-10-29 10:35:42,801 - __main__ - INFO - 
+Exporting to JSON...
+2025-10-29 10:35:42,813 - __main__ - INFO -   ✓ Exported to out/cannes_400_batch2.json
+2025-10-29 10:35:42,816 - __main__ - INFO -   ✓ Exported top-100 to out/cannes_top100_batch2.json
+2025-10-29 10:35:42,817 - __main__ - INFO -   ✓ Exported texts only to out/cannes_400_texts_batch2.json
+2025-10-29 10:35:42,817 - __main__ - INFO - 
+================================================================================
+2025-10-29 10:35:42,817 - __main__ - INFO - ✅ NEW BATCH COMPLETE
+2025-10-29 10:35:42,817 - __main__ - INFO - ================================================================================
+2025-10-29 10:35:42,818 - __main__ - INFO - Generated: 400 NEW slogans
+2025-10-29 10:35:42,818 - __main__ - INFO - Average score: 0.982
+2025-10-29 10:35:42,818 - __main__ - INFO - 
+Output files:
+2025-10-29 10:35:42,818 - __main__ - INFO -   - out/cannes_400_batch2.json (full data)
+2025-10-29 10:35:42,818 - __main__ - INFO -   - out/cannes_top100_batch2.json (top 100)
+2025-10-29 10:35:42,818 - __main__ - INFO -   - out/cannes_400_texts_batch2.json (texts only)
+2025-10-29 10:35:42,818 - __main__ - INFO - 
+Top 20 NEW slogans:
+2025-10-29 10:35:42,818 - __main__ - INFO -    1. Что если познавай? (1.000)
+2025-10-29 10:35:42,818 - __main__ - INFO -    2. Зачем стремись? (1.000)
+2025-10-29 10:35:42,818 - __main__ - INFO -    3. Что если люби? (1.000)
+2025-10-29 10:35:42,818 - __main__ - INFO -    4. Где твой мечта? (1.000)
+2025-10-29 10:35:42,818 - __main__ - INFO -    5. Зачем выбирай? (1.000)
+2025-10-29 10:35:42,818 - __main__ - INFO -    6. Ты уникальный? (1.000)
+2025-10-29 10:35:42,818 - __main__ - INFO -    7. Почему бы не выбирай? (1.000)
+2025-10-29 10:35:42,818 - __main__ - INFO -    8. Когда стиль? (1.000)
+2025-10-29 10:35:42,818 - __main__ - INFO -    9. Когда прогресс? (1.000)
+2025-10-29 10:35:42,818 - __main__ - INFO -   10. Стремись или нет? (1.000)
+2025-10-29 10:35:42,818 - __main__ - INFO -   11. Готов к вдохновение? (1.000)
+2025-10-29 10:35:42,818 - __main__ - INFO -   12. Ты нужный? (1.000)
+2025-10-29 10:35:42,818 - __main__ - INFO -   13. Выбирай или нет? (1.000)
+2025-10-29 10:35:42,818 - __main__ - INFO -   14. Когда сердце? (1.000)
+2025-10-29 10:35:42,818 - __main__ - INFO -   15. Рискуй или нет? (1.000)
+2025-10-29 10:35:42,818 - __main__ - INFO -   16. Пробуй или нет? (1.000)
+2025-10-29 10:35:42,818 - __main__ - INFO -   17. Кто создавай? (1.000)
+2025-10-29 10:35:42,819 - __main__ - INFO -   18. Зачем побеждай? (1.000)
+2025-10-29 10:35:42,819 - __main__ - INFO -   19. Ты светлый? (1.000)
+2025-10-29 10:35:42,819 - __main__ - INFO -   20. Мечтай смелее! (1.000)
+2025-10-29 10:35:42,819 - __main__ - INFO - ================================================================================
